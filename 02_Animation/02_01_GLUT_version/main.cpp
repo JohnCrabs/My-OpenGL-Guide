@@ -1,3 +1,7 @@
+/************/
+/* main.cpp */
+/************/
+
 #include <GL/gl.h>
 #include <GL/glu.h>
 #include <GL/glut.h>
@@ -36,7 +40,7 @@ void reshape(int w, int h) {
 }
 
 void spinDisplay(void) {
-    spin = spin + 2.0;
+    spin += 2.0;
     if(spin > 360)
         spin -= 360;
     glutPostRedisplay();
@@ -63,9 +67,6 @@ void initializeGL(void) {
     glutInitWindowPosition(MY_WIN_POS_X, MY_WIN_POS_Y);
     glutCreateWindow(MY_WIN_TITLE);
 }
-
-
-
 
 /*
  * Request double buffer display mode.

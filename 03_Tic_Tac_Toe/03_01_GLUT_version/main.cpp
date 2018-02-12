@@ -1,3 +1,7 @@
+/************/
+/* main.cpp */
+/************/
+
 #include <GL/gl.h>
 #include <GL/glut.h>
 #include <math.h>
@@ -42,7 +46,6 @@ bool winGame = false; //set the winGame bool value
 bool drawGame = false; //set the drawGame bool value
 char winPlayer = '\0'; //set win Player symbol
 
-
 /*
  * Set the values for a tile
  */
@@ -59,11 +62,6 @@ Tiles setTiles(float x_min, float y_min, float x_max, float y_max, bool freeStat
 
     return t;
 }
-
-
-
-
-
 
 /*
  * Initialize the starting tiles values. When the game needs to be restart this function must be called
@@ -191,11 +189,6 @@ bool checkWinCondition(void) {
     return false;
 }
 
-
-
-
-
-
 /*
  * Check if game is Drawn
  */
@@ -257,12 +250,6 @@ bool NumBetweenEqual(float num, float min, float max) {
         return true;
     return false;
 }
-
-
-
-
-
-
 
 /*
  * Check which tiles must be drawn and set tiles symbol.

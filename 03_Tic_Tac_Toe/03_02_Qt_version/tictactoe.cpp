@@ -1,9 +1,11 @@
+/***************/
+/* tictactoe.h */
+/***************/
+
 #include "tictactoe.h"
 #include "GL/gl.h"
 
 #include "math.h"
-
-
 
 const float DEG2RAD = 3.14159265/180;
 

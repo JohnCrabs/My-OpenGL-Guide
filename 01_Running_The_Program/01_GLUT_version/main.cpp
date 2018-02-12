@@ -1,3 +1,7 @@
+/************/
+/* main.cpp */
+/************/
+
 #include <GL/gl.h>
 #include <GL/glut.h>
 
@@ -44,7 +48,6 @@ void winCreate(void) {
     glutInitWindowPosition(MY_WIN_POS_X, MY_WIN_POS_Y);
     glutCreateWindow(MY_WIN_TITLE);
 }
-
 /*
  * Declares initial window size, position and display mode
  * (single buffer and RGB). Open window with "hello"

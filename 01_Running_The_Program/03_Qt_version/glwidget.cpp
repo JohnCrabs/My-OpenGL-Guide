@@ -1,3 +1,7 @@
+/****************/
+/* glwidget.cpp */
+/****************/
+
 #include "glwidget.h"
 #include <GL/glu.h>
 
